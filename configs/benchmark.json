@@ -1,0 +1,17 @@
+{
+  "real_scenes": ["samson", "jasper"],
+  "seeds": [0, 1, 2, 3, 4],
+  "methods": ["spa-fcls", "simplex-nmf", "spatial-nmf"],
+  "max_iter": 300,
+  "inner_steps": 15,
+  "tolerance": 1e-7,
+  "spatial_weight": 0.002,
+  "initialization_jitter": 0.02,
+  "fcls_max_iter": 3000,
+  "fcls_tolerance": 1e-8,
+  "synthetic_size": 48,
+  "synthetic_bands": 96,
+  "synthetic_snr_db": [null, 20, 35],
+  "synthetic_regimes": ["pure", "mixed"],
+  "threads": 1
+}

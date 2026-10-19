@@ -1,0 +1,34 @@
+{
+  "repository": "https://github.com/gaetanosettembre/data_unmixing",
+  "revision": "29774c39f00d385b1d7898a8b1f26b3710aa036b",
+  "files": [
+    {
+      "path": "Datasets/Samson/Samson.mat",
+      "filename": "Samson.mat",
+      "url": "https://raw.githubusercontent.com/gaetanosettembre/data_unmixing/29774c39f00d385b1d7898a8b1f26b3710aa036b/Datasets/Samson/Samson.mat",
+      "sha256": "1ebacaf7cd32bfc31c0ee3fd56c63a7f29a434893a8b45705fb59cd8a0c8beb6",
+      "bytes": 3604014
+    },
+    {
+      "path": "Datasets/Samson/Samson_GT.mat",
+      "filename": "Samson_GT.mat",
+      "url": "https://raw.githubusercontent.com/gaetanosettembre/data_unmixing/29774c39f00d385b1d7898a8b1f26b3710aa036b/Datasets/Samson/Samson_GT.mat",
+      "sha256": "ce768182ce5292390180f827ff5769112cf3d299f4e64ab43e950a310b7ec9fa",
+      "bytes": 134259
+    },
+    {
+      "path": "Datasets/Jasper/jasperRidge2_R198.mat",
+      "filename": "jasperRidge2_R198.mat",
+      "url": "https://raw.githubusercontent.com/gaetanosettembre/data_unmixing/29774c39f00d385b1d7898a8b1f26b3710aa036b/Datasets/Jasper/jasperRidge2_R198.mat",
+      "sha256": "0e4118a6452f6044978a8ca3762fb0f791115467904936d463c4e111e56e682e",
+      "bytes": 2987224
+    },
+    {
+      "path": "Datasets/Jasper/Jasper_GT.mat",
+      "filename": "Jasper_GT.mat",
+      "url": "https://raw.githubusercontent.com/gaetanosettembre/data_unmixing/29774c39f00d385b1d7898a8b1f26b3710aa036b/Datasets/Jasper/Jasper_GT.mat",
+      "sha256": "92f5697b43705802b904fd13ba99b6ce65a3d203682864abc3fbec922beec374",
+      "bytes": 178271
+    }
+  ]
+}

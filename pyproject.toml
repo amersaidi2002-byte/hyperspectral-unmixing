@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyperspectral-unmixing"
+version = "0.1.0"
+description = "Spectral unmixing with simplex constraints and spatial regularization."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "GPL-3.0-only"
+authors = [{name = "Amer Saidi"}]
+dependencies = ["numpy>=2.2,<3", "scipy>=1.15,<2", "matplotlib>=3.9,<4", "threadpoolctl>=3.5,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.12,<1", "nbformat>=5.10,<6"]
+
+[project.urls]
+Repository = "https://github.com/amersaidi2002-byte/hyperspectral-unmixing"
+
+[project.scripts]
+hsi-unmix = "spectral_unmixing.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+spectral_unmixing = ["web/*.html", "web/*.css", "web/*.js", "resources/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 96
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
