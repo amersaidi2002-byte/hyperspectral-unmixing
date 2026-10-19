@@ -8,7 +8,7 @@
 pure-pixel extraction, constrained matrix factorization and spatial regularization,
 then inspect where reconstruction quality disagrees with material recovery.
 
-![Samson: input, reference fractions and estimated fractions](docs/assets/overview.png)
+![Samson: false-color input, estimated fractions and pixel spectrum](docs/assets/overview.png)
 
 ## What is implemented
 

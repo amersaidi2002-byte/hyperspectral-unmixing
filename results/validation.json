@@ -1,0 +1,117 @@
+{
+  "checked_utc": "2026-10-19T16:34:28.563269+00:00",
+  "unit_tests": {
+    "command": "pytest",
+    "passed": 25,
+    "environment": "fresh Python 3.12 virtual environment; constraints.txt"
+  },
+  "lint": {
+    "command": "ruff check src tests scripts",
+    "passed": true
+  },
+  "format": {
+    "command": "ruff format --check src tests scripts",
+    "passed": true
+  },
+  "notebook": {
+    "command": "python scripts/execute_notebook.py",
+    "executed_python_cells": 5,
+    "captured_figures": 3,
+    "schema_valid": true
+  },
+  "results": {
+    "command": "python scripts/verify_results.py",
+    "records": 112,
+    "saved_fit_checksums": 24,
+    "recomputed_fit_metrics": 24
+  },
+  "http": {
+    "command": "python scripts/check_explorer.py",
+    "pixel_checks": 27,
+    "png_responses": 81,
+    "synthetic_fallback_pixel_checks": 9,
+    "synthetic_fallback_png_responses": 27
+  },
+  "browser": {
+    "browser": "Chromium 134.0.6998.35 / Playwright 1.51.0",
+    "combinations": [
+      {
+        "scene": "samson",
+        "method": "spa-fcls",
+        "fallback": false
+      },
+      {
+        "scene": "samson",
+        "method": "simplex-nmf",
+        "fallback": false
+      },
+      {
+        "scene": "samson",
+        "method": "spatial-nmf",
+        "fallback": false
+      },
+      {
+        "scene": "jasper",
+        "method": "spa-fcls",
+        "fallback": false
+      },
+      {
+        "scene": "jasper",
+        "method": "simplex-nmf",
+        "fallback": false
+      },
+      {
+        "scene": "jasper",
+        "method": "spatial-nmf",
+        "fallback": false
+      },
+      {
+        "scene": "synthetic",
+        "method": "spa-fcls",
+        "fallback": false
+      },
+      {
+        "scene": "synthetic",
+        "method": "simplex-nmf",
+        "fallback": false
+      },
+      {
+        "scene": "synthetic",
+        "method": "spatial-nmf",
+        "fallback": false
+      },
+      {
+        "scene": "synthetic",
+        "method": "spa-fcls",
+        "fallback": true
+      },
+      {
+        "scene": "synthetic",
+        "method": "simplex-nmf",
+        "fallback": true
+      },
+      {
+        "scene": "synthetic",
+        "method": "spatial-nmf",
+        "fallback": true
+      }
+    ],
+    "javascript_errors": [],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "desktop_viewport": [
+      1365,
+      1100
+    ]
+  },
+  "packaging": {
+    "wheel_built": true,
+    "installed_outside_repository": true,
+    "resource_manifest_verified": true,
+    "web_assets_verified": true,
+    "synthetic_fit_verified": true
+  },
+  "scope": "Local validation record. Consult GitHub Actions for remote CI status."
+}
