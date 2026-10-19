@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hyperspectral Unmixing · Pixel Inspector</title><link rel="stylesheet" href="/style.css"></head>
+<body><main>
+<header><div class="eyebrow">HYPERSPECTRAL UNMIXING / AMER SAIDI</div><h1>What is inside a pixel?</h1><p class="intro">Inspect material fractions and the spectra that explain them.</p></header>
+<section class="toolbar"><label>Scene<select id="scene"></select></label><label>Method<select id="method"></select></label><label>Material<select id="component"></select></label><div id="shape"></div></section>
+<p id="status" role="status">Loading the saved experiment…</p><p id="data-note" hidden></p>
+<section class="images">
+<article><h2>False-color input</h2><div class="image-wrap"><img id="rgb" alt="False-color hyperspectral scene"><span class="crosshair" id="cursor-rgb"></span></div><p>Click to inspect a pixel. Arrow keys move the selection.</p></article>
+<article><h2 id="reference-title">Reference estimate</h2><div class="image-wrap"><img id="reference" alt="Reference material abundance"><span class="crosshair" id="cursor-reference"></span></div><p>Reference maps are used only after fitting.</p></article>
+<article><h2>Estimated fraction</h2><div class="image-wrap"><img id="estimate" alt="Estimated material abundance"><span class="crosshair" id="cursor-estimate"></span></div><div class="scale"><span>0%</span><div></div><span>100%</span></div></article>
+</section>
+<section class="detail"><article><div class="section-title"><h2>Observed and reconstructed spectrum</h2><span id="pixel-label"></span></div><svg id="spectrum" viewBox="0 0 760 290" role="img" aria-label="Pixel spectrum and material contributions"></svg><div class="legend"><span class="observed">Observed</span><span class="reconstructed">Reconstruction</span><span>Thin colored lines: material contributions</span></div></article>
+<article><h2>Material fractions at this pixel</h2><div id="fractions"></div><p id="residual"></p><p>Solid bars: estimate. Outlined markers: reference. Fractions sum to 100% within each model.</p></article></section>
+<footer><p id="interpretation"></p><p>Seed 0 throughout. Components are matched to reference spectra after unsupervised fitting; names are comparison labels. Spectral axes use band indices. This is a research benchmark.</p><a href="https://github.com/amersaidi2002-byte/hyperspectral-unmixing">Code, methods and measured results ↗</a></footer>
+</main><script src="/app.js"></script></body></html>

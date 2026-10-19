@@ -1,0 +1,60 @@
+{
+  "scene": "samson",
+  "case": "original",
+  "method": "spa-fcls",
+  "seed": 0,
+  "scene_metadata": {
+    "source_revision": "29774c39f00d385b1d7898a8b1f26b3710aa036b",
+    "source_sha256": {
+      "Samson.mat": "1ebacaf7cd32bfc31c0ee3fd56c63a7f29a434893a8b45705fb59cd8a0c8beb6",
+      "Samson_GT.mat": "ce768182ce5292390180f827ff5769112cf3d299f4e64ab43e950a310b7ec9fa"
+    },
+    "raw_divisor": 1.0,
+    "global_scale": 1.0,
+    "spectral_axis": "retained band index (wavelength calibration not supplied)",
+    "reference_status": "benchmark reference estimates, not field-measured fractions",
+    "material_labels": "source cood entries; Samson 1-rock displayed as Rock/soil",
+    "reference_spectral_comparison": "scale-invariant SAD; amplitudes not calibrated"
+  },
+  "config_sha256": "e7b013bd58fd1099124a4b18babb9aa29914d647cb6fda628a7bfc852e734fe8",
+  "metrics": {
+    "mean_endmember_sad_deg": 5.253531600411385,
+    "abundance_rmse": 0.2582832815698539,
+    "relative_reconstruction_error": 0.23426004857141774,
+    "mean_reconstruction_sam_deg": 7.4889613931981165,
+    "reconstruction_sam_valid_pixels": 9025,
+    "per_component_sad_deg": [
+      2.3167639053459457,
+      5.972001867879326,
+      7.471829028008885
+    ],
+    "per_component_abundance_rmse": [
+      0.3290724972079497,
+      0.27397641977728354,
+      0.12953367748513245
+    ],
+    "reference_to_estimate_permutation": [
+      2,
+      0,
+      1
+    ],
+    "min_abundance": 0.0,
+    "max_sum_to_one_error": 2.220446049250313e-16,
+    "fit_seconds": 0.2292935780000107
+  },
+  "diagnostics": {
+    "iterations": 200,
+    "converged": true,
+    "projected_step_residual": 5.605018743056138e-09,
+    "tolerance": 1e-08,
+    "fit_seconds": 0.2292935780000107,
+    "method": "spa-fcls",
+    "seed": 0,
+    "spa_pixel_indices": [
+      3947,
+      1,
+      6584
+    ]
+  },
+  "array_sha256": "a0cce103ea2cdd46b0cf34a86754170a3c1b6a7356477345235dee6add995ff5"
+}

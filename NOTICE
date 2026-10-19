@@ -1,0 +1,18 @@
+Hyperspectral Unmixing
+Copyright (c) 2026 Amer Saidi
+
+Code is licensed under GPL-3.0-only; see LICENSE.
+
+Samson and Jasper Ridge measurements and benchmark references are downloaded from
+gaetanosettembre/data_unmixing at a fixed revision. That research repository includes
+a GPL-3.0 license and specifies research/educational use with respect for original
+dataset terms. Raw MATLAB data are not redistributed here. Follow the providers'
+terms for data access and downstream reuse.
+
+The attributed real-scene figures and estimated arrays are derived from those data.
+They do not transfer ownership of the underlying measurements or annotations.
+Exact source URLs, hashes and citations are in configs/sources.json and
+docs/references.md. Real-scene references are estimates, not field-measured fractions.
+
+Synthetic mixtures are generated analytically by this project's code, rather than
+recorded by a real sensor or taken from a measured mineral spectral library.

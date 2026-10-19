@@ -1,0 +1,8 @@
+# Numerical and development versions used for the experiments and checks.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+threadpoolctl==3.6.0
+pytest==9.1.1
+ruff==0.17.1
+nbformat==5.10.4

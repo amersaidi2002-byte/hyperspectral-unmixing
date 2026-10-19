@@ -1,0 +1,64 @@
+{
+  "scene": "jasper",
+  "case": "original",
+  "method": "spa-fcls",
+  "seed": 0,
+  "scene_metadata": {
+    "source_revision": "29774c39f00d385b1d7898a8b1f26b3710aa036b",
+    "source_sha256": {
+      "jasperRidge2_R198.mat": "0e4118a6452f6044978a8ca3762fb0f791115467904936d463c4e111e56e682e",
+      "Jasper_GT.mat": "92f5697b43705802b904fd13ba99b6ce65a3d203682864abc3fbec922beec374"
+    },
+    "raw_divisor": 5000.0,
+    "global_scale": 1.0874,
+    "spectral_axis": "retained band index (wavelength calibration not supplied)",
+    "reference_status": "benchmark reference estimates, not field-measured fractions",
+    "material_labels": "source cood entries; Samson 1-rock displayed as Rock/soil",
+    "reference_spectral_comparison": "scale-invariant SAD; amplitudes not calibrated"
+  },
+  "config_sha256": "e7b013bd58fd1099124a4b18babb9aa29914d647cb6fda628a7bfc852e734fe8",
+  "metrics": {
+    "mean_endmember_sad_deg": 19.856490651886332,
+    "abundance_rmse": 0.1806969840894506,
+    "relative_reconstruction_error": 0.2077453012287658,
+    "mean_reconstruction_sam_deg": 6.290863547419585,
+    "reconstruction_sam_valid_pixels": 10000,
+    "per_component_sad_deg": [
+      11.631149007462286,
+      14.551242446897069,
+      13.204719922938315,
+      40.03885123024766
+    ],
+    "per_component_abundance_rmse": [
+      0.1185750455419018,
+      0.08691669627522144,
+      0.2131734345041793,
+      0.2520875513410408
+    ],
+    "reference_to_estimate_permutation": [
+      1,
+      0,
+      2,
+      3
+    ],
+    "min_abundance": 0.0,
+    "max_sum_to_one_error": 2.220446049250313e-16,
+    "fit_seconds": 0.6377165750000131
+  },
+  "diagnostics": {
+    "iterations": 460,
+    "converged": true,
+    "projected_step_residual": 7.465928397962387e-09,
+    "tolerance": 1e-08,
+    "fit_seconds": 0.6377165750000131,
+    "method": "spa-fcls",
+    "seed": 0,
+    "spa_pixel_indices": [
+      8140,
+      5320,
+      9203,
+      6752
+    ]
+  },
+  "array_sha256": "0d861705c6e806ab9c2064a8e73471db363d49008f89291829cb3370689ec1c0"
+}

@@ -1,0 +1,56 @@
+{
+  "scene": "synthetic",
+  "case": "mixed-clean",
+  "method": "spa-fcls",
+  "seed": 4,
+  "scene_metadata": {
+    "synthetic": true,
+    "seed": 4,
+    "regime": "mixed",
+    "requested_snr_db": null,
+    "actual_snr_db": null,
+    "clipped_values": 0,
+    "spectral_axis": "synthetic band index",
+    "reference_status": "exact analytic linear-mixture ground truth"
+  },
+  "config_sha256": "e7b013bd58fd1099124a4b18babb9aa29914d647cb6fda628a7bfc852e734fe8",
+  "metrics": {
+    "mean_endmember_sad_deg": 5.8387625440142115,
+    "abundance_rmse": 0.11161324824779088,
+    "relative_reconstruction_error": 0.0005081256530516046,
+    "mean_reconstruction_sam_deg": 0.012753121080094375,
+    "reconstruction_sam_valid_pixels": 2304,
+    "per_component_sad_deg": [
+      1.7143679884727168,
+      3.6517961294364167,
+      12.1501235141335
+    ],
+    "per_component_abundance_rmse": [
+      0.10745676752151925,
+      0.10854049759343201,
+      0.11850972554716932
+    ],
+    "reference_to_estimate_permutation": [
+      2,
+      0,
+      1
+    ],
+    "min_abundance": 0.0,
+    "max_sum_to_one_error": 2.220446049250313e-16,
+    "fit_seconds": 0.047049285000070995
+  },
+  "diagnostics": {
+    "iterations": 160,
+    "converged": true,
+    "projected_step_residual": 5.021547911593047e-09,
+    "tolerance": 1e-08,
+    "fit_seconds": 0.047049285000070995,
+    "method": "spa-fcls",
+    "seed": 4,
+    "spa_pixel_indices": [
+      47,
+      2274,
+      0
+    ]
+  }
+}
